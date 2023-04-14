@@ -81,37 +81,43 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Common Wealth Retirement",
+        "title": "Full Stack Developer",
+        "years": "09.2020 - 04.2021",
         "mainTech": [
-          "Angular 8/9/10"
+          "React + Spring"
         ],
         "technologies": [
+          "TypeScript",
+          "SCSS",
+          "Material UI",
+          "i18n",
+          "Cypress",
+          "Java",
+          "JUnit",
           "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "AWS SES",
+          "AWS S3",
+          "GIT",
+          "Agile"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Fleet Complete",
+        "title": "Automation Developer",
+        "years": "05.2019 - 12.2019",
         "mainTech": [
-          "Angular 7/8"
+          "WebdriverIO"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "Appium",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Cucumber",
+          "Jenkins",
+          "Allure",
+          "AWS lambda",
+          "GIT",
+          "Agile"
         ]
       }
     ]
