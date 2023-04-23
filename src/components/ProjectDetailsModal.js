@@ -4,11 +4,14 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import ReactPlayer from 'react-player'
+// import MyVideo from '../../public/videos/pepe.mp4'
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
       const technologies = this.props.data.technologies;
       const images = this.props.data.images;
+      const videos = this.props.data.videos;
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
@@ -31,6 +34,18 @@ class ProjectDetailsModal extends Component {
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
             return <div key={i} data-src={elem} />;
+          });
+        }
+        if (this.props.data.videos) {
+          var video = videos.map((elem, i) => {
+            return <div key={"v"+i} >
+              <ReactPlayer 
+                url={elem} 
+                width='100%'
+                height='100%'
+                controls = {true}
+              />
+            </div>;
           });
         }
       }
@@ -73,7 +88,7 @@ class ProjectDetailsModal extends Component {
               animation="scaleOutAnimation"
               className="slider-image"
             >
-              {img}
+              {video?video.concat(img):img}
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
