@@ -5,7 +5,6 @@ import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 import ReactPlayer from 'react-player'
-// import MyVideo from '../../public/videos/pepe.mp4'
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {

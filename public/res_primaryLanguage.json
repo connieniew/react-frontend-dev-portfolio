@@ -15,7 +15,7 @@
         "startDate": "2022",
         "description": "This is a fullstack development project implemented by a small group of 3. This bubble tea storefront was build using React, HTML, CSS, JavaScript and NodeJs. On top of the basic ordering and payment functionalities, it is integrated with Emailjs and Google Maps to handle customer requests and store searches. Users can also login using Google SSO and pay their orders wiht their PayPal account. RESTful API was designed with GraphQL standard using Node.js and Express.js. The CRUD routes support authentication and authorization for different roles (admins/customers).",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg"
+          "images/portfolio/bubble_tea/p1.jpg"
         ],
         "videos": [
           "videos/pepe.mp4"
@@ -37,46 +37,45 @@
         ]
       },
       {
-        "title": "Scipy",
+        "title": "scikit-learn",
         "startDate": "2021",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "description": "A practice group project that implements real tickets from scikit-learn, a Python open-source machine learning library. With a group of 6, we drew a UML diagram on all classes in the code base as well as fixed/implemented 1. Bug #18837 Duplicate check_finite when calling scipy.linalg functions. 2. Feature #11209 Add strategy=”random” to SimpleImputer. 3. Feature #14257 [Enhancement] Group aware Time-based cross validation. 4. Feature #19072 [New Feature] GroupedTimeSeriesSplit with params - gap and test_size. Corresponding unit tests were written to verify the correctness.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/scikit-learn/p1.png",
+          "images/portfolio/scikit-learn/p2.png",
+          "images/portfolio/scikit-learn/p3.png",
+          "images/portfolio/scikit-learn/p4.png",
+          "images/portfolio/scikit-learn/p5.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       },
       {
         "title": "OCASI Chatbot",
         "startDate": "2020",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "The chatbot is trained to answer user questions by using the frequently asked questions on settlement.org. It returns popular answers/resources based on the question it was asked or the inputed keywords. The purpose of the chatbot is to help streamline the search process that users have to go through when they visit settlement.org. The chatbot combines the google search bar on the front page, the various FAQs within the site, popular articles and the forum questions.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/ocasi/p1.png",
+          "images/portfolio/ocasi/p2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/connieniew/ocasi",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-nodejs-plain",
+            "name": "NodeJs"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-googlecloud-plain",
+            "name": "Google Cloud"
           }
         ]
       }
