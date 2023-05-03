@@ -30,23 +30,30 @@ class App extends Component {
   }
 
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+    // var pickedLangIconId =
+    //   oppositeLangIconId === window.$primaryLanguageIconId
+    //     ? window.$secondaryLanguageIconId
+    //     : window.$primaryLanguageIconId;
+    // document
+    //   .getElementById(oppositeLangIconId)
+    //   .removeAttribute("filter", "brightness(40%)");
+    // document
+    //   .getElementById(pickedLangIconId)
+    //   .setAttribute("filter", "brightness(40%)");
   }
 
+  // componentDidMount() {
+  //   this.loadSharedData();
+  //   this.applyPickedLanguage(
+  //     window.$primaryLanguage,
+  //     window.$secondaryLanguageIconId
+  //   );
+  // }
+  
   componentDidMount() {
     this.loadSharedData();
     this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
+      window.$primaryLanguage
     );
   }
 
@@ -84,6 +91,8 @@ class App extends Component {
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
+          <div className="language"/> 
+          {/* remove the above div and uncomment
           <div
             onClick={() =>
               this.applyPickedLanguage(
@@ -115,7 +124,7 @@ class App extends Component {
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
-          </div>
+          </div> */}
         </div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
